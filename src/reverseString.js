@@ -3,7 +3,6 @@ function reverseString(string) {
 
   let lo = 0;
   let hi = arr.length - 1;
-
   while (lo < hi) {
     const temp = arr[lo];
     arr[lo] = arr[hi];
